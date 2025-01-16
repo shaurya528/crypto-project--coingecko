@@ -1,8 +1,16 @@
-function Para(){
-  return(
+
+import './App.css'
+import NavBar from './Component/navbar/NavBar'
+import Banner from './Component/Banner/Banner'
+
+
+function App() {
+  return (
     <>
-    hello
+    <NavBar/>
+    <Banner/>
     </>
   )
 }
-export default Para
+
+export default App
